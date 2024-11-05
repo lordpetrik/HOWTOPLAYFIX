@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: rgb(43, 0, 255);
+}
+
+.main-header {
+  background-color: rgb(1, 195, 209);
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 48px;
+  margin: 0;
+}
+.header-info {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin-top: 14px;
+  margin-left: 20px;
+}
+.header-info a {
+  padding: 0;
+  text-decoration: none;
+}
+.header-info a:hover {
+  background-color: transparent;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  float: left;
+}
+
+.insidenav:hover {
+  background-color: rgb(119, 154, 157);
+  border: rgb(0, 255, 0) 5px solid;
+  border-radius: 10px;
+}
+
+.tittletxt {
+  font-size: 70px;
+  margin: 30px;
+  color: white;
+}
+
+.tittle {
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tittledesc {
+  margin: 70px;
+  color: rgb(0, 204, 255);
+}
+
+.unshowntxt {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .tittledesc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .unshowntxt {
+    display: none;
+  }
+}
+
+.dvdline {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #00b7ff;
+}
+
+.subtitle {
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sec-bg);
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 3px solid rgb(0, 238, 255);
+  border-radius: 10px;
+  background-color: #99c1fd;
+  margin: 10px;
+}
+
+.titlebgimg {
+  background-image: url(assets/01_gameLauncher_section_kv_mo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
