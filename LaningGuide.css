@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: rgb(43, 0, 255);
+  }
+  
+  .main-header {
+    background-color: rgb(1, 195, 209);
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    margin: 0;
+  }
+  .header-info {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin-top: 14px;
+    margin-left: 20px;
+  }
+  .header-info a {
+    padding: 0;
+    text-decoration: none;
+  }
+  .header-info a:hover {
+    background-color: transparent;
+  }
+  
+  nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    float: left;
+  }
+  
+  .insidenav:hover {
+    background-color: rgb(119, 154, 157);
+    border: rgb(0, 255, 0) 5px solid;
+    border-radius: 10px;
+  }
+
+  .tittletxt {
+    font-size: 70px;
+    margin: 30px;
+    color: white;
+  }
+  
+  .tittle {
+    color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(assets/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen and (max-width:600px) {
+    .tittle{
+        background-image: url(assets/MobileLegendsBangBang_MLBB_appstore_officialart.jpg);
+    }
+  }
+
+  .dvdline {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #00b7ff;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+
+  .tips1{
+    border: red solid 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  .tipsimg{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+  }
+
+  .tipstxt{
+    text-align: left;
+  }
+
+  @media screen and (max-width:600px){
+    .tipsimg{
+        width: 300px;
+        height: 200px;
+    }
+  }
+
+  .card{
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 10px;
+    background-color: #99c1fd;
+    margin: 10px;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sec-bg);
+    width: 100%;
+    height: auto;
+  }
+
+  .tipsrtkiri{
+    border: red solid 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+  }
+
+@media screen and (max-width:600px) {
+  .ytvid{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+  }
+
+  .ytvidkiri{
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+  }
+}
+
+.tipsrtkanan{
+  border: red solid 5px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: right;
+}
